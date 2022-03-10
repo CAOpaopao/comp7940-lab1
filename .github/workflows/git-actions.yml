@@ -2,11 +2,11 @@ name: Safety
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Safety
-        uses: aufdenpunkt/python-safety-check@main
+        uses: aufdenpunkt/python-safety-check@master
       
