@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  DEP_PATH: C:/Users/cg/Desktop/comp7940-lab1/requirements.txt
+DEP_PATH: C:/Users/cg/Desktop/comp7940-lab1/requirements.txt
 
 jobs:
   build:
